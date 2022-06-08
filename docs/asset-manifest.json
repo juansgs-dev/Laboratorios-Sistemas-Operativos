@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Laboratorios-Sistemas-Operativos/static/css/main.a6b6874e.css",
-    "main.js": "/Laboratorios-Sistemas-Operativos/static/js/main.42f1ccd3.js",
+    "main.css": "/Laboratorios-Sistemas-Operativos/static/css/main.9b1d0ab7.css",
+    "main.js": "/Laboratorios-Sistemas-Operativos/static/js/main.948495bf.js",
     "index.html": "/Laboratorios-Sistemas-Operativos/index.html",
-    "main.a6b6874e.css.map": "/Laboratorios-Sistemas-Operativos/static/css/main.a6b6874e.css.map",
-    "main.42f1ccd3.js.map": "/Laboratorios-Sistemas-Operativos/static/js/main.42f1ccd3.js.map"
+    "main.9b1d0ab7.css.map": "/Laboratorios-Sistemas-Operativos/static/css/main.9b1d0ab7.css.map",
+    "main.948495bf.js.map": "/Laboratorios-Sistemas-Operativos/static/js/main.948495bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6b6874e.css",
-    "static/js/main.42f1ccd3.js"
+    "static/css/main.9b1d0ab7.css",
+    "static/js/main.948495bf.js"
   ]
 }
