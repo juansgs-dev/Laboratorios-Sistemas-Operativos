@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://img.freepik.com/foto-gratis/persona-vista-superior-escribiendo-computadora-portatil-espacio-copia_23-2148708035.jpg?w=2000') ;
+}
+
+.Principal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+
+.FotoCarnet {
+    width: 17%;
+    height: 17%;
+    border-radius: 200px;
+    border: 1px solid #666;
+}

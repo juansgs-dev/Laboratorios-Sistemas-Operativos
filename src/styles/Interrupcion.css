@@ -1,0 +1,55 @@
+.Cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.Formulario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    background-color: rgb(64, 73, 71);
+    color: #fff;
+    font-size: 18px;
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.Input{
+    margin: 10px;
+}
+
+input{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    margin: 10px;
+    border-radius: 5px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.button.Validacion{
+    background-color: rgb(62, 185, 79);
+    width: auto;
+    height: auto;
+}
+
+.button.Validacion:hover {
+    background-color: rgb(69, 233, 118);
+}
