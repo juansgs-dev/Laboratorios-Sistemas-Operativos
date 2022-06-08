@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Laboratorios-Sistemas-Operativos/static/css/main.a6b6874e.css",
+    "main.js": "/Laboratorios-Sistemas-Operativos/static/js/main.42f1ccd3.js",
+    "index.html": "/Laboratorios-Sistemas-Operativos/index.html",
+    "main.a6b6874e.css.map": "/Laboratorios-Sistemas-Operativos/static/css/main.a6b6874e.css.map",
+    "main.42f1ccd3.js.map": "/Laboratorios-Sistemas-Operativos/static/js/main.42f1ccd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6b6874e.css",
+    "static/js/main.42f1ccd3.js"
+  ]
+}
