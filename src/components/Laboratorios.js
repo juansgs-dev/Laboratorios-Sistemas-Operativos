@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Interrupcion from '../assets/Interrupcion.png'
 import '../styles/Laboratorios.css'
 
@@ -11,12 +12,7 @@ export const Laboratorios = () => {
                     <img src={Interrupcion} alt='imagen Interrupcion'></img>
                 </div>
                 <span>Ejemplo de una interrupción que se ocasiona al querer ingresar un número impar y un nombre.</span>
-                <a href="Interrupcion" className='button'>
-                    <span>Ir al Ejemplo</span>
-                    <div className='icono'>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </a>
+                <Link className='button' to="/Interrupcion">Ir al Ejemplo</Link>
             </section>
 
         </>

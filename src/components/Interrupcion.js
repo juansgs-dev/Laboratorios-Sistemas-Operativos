@@ -25,20 +25,20 @@ export const Interrupcion = () => {
   const ValidarDatos = () => {
     const { numPar, nombre } = State;
     try {
+
       if (numPar % 2 === 0 && nombre === 'Par') {
-        setMsg("¡CORRECTO! Todos los datos son validos ")
         abrirCerrarModalCorrecto();
-      } else throw 'IMPAR'
+      } else if (numPar % 2 !== 0) {
+        throw 'Número es impar'
+      } else throw 'Nombre incorrecto'
 
     } catch (error) {
-      if (error === 'IMPAR') {
-        setMsg("¡FElICIDADES! Acabas de generar una interrupción")
+      if (error === 'Número es impar' || error === 'Nombre incorrecto') {
+        setMsg(error)
         abrirCerrarModalIncorrecto();
-        
       }
     }
   }
-
 
   const abrirCerrarModalCorrecto = () => {
     setModalCorrecto(!modalCorrecto);
@@ -47,6 +47,7 @@ export const Interrupcion = () => {
   const abrirCerrarModalIncorrecto = () => {
     setModalIncorrecto(!modalIncorrecto);
   }
+
 
   return (
     <div className='Cuerpo'>
@@ -64,7 +65,7 @@ export const Interrupcion = () => {
       </div>
 
       <Modal isOpen={modalCorrecto}>
-        <ModalHeader>{Msg}</ModalHeader>
+        <ModalHeader>¡CORRECTO! Todos los datos son validos</ModalHeader>
         <ModalBody>
           <div className='Modal'>
             <span>Ahora intenta equivocarte para generar una Interrupcion</span>
@@ -76,9 +77,10 @@ export const Interrupcion = () => {
       </Modal>
 
       <Modal isOpen={modalIncorrecto}>
-        <ModalHeader>{Msg}</ModalHeader>
+        <ModalHeader>¡Felicidades! Acabas de generar una interrupción </ModalHeader>
         <ModalBody>
           <div className='Modal'>
+            <p> Excepción Capturada es : {Msg}</p>
             <span> Aprendimos cuando se genera una interrupción </span>
           </div>
         </ModalBody>
